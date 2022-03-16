@@ -105,3 +105,23 @@ M       README.md
 guill@DESKTOP-46J0L3Q MINGW64 ~/desktop/masteruah (master)
 $ git merge v0.2 -m "merge v0.2 directo"
 Already up to date.
+
+
+
+guill@DESKTOP-46J0L3Q MINGW64 ~/desktop/masteruah (master)
+$ git checkout master
+Already on 'master'
+M       README.md
+
+guill@DESKTOP-46J0L3Q MINGW64 ~/desktop/masteruah (master)
+$ echo "Hola" >> 1.txt																		//En la rama master poner Hola en el fichero 1.txt y hacer commit.
+
+guill@DESKTOP-46J0L3Q MINGW64 ~/desktop/masteruah (master)
+$ git add .
+warning: LF will be replaced by CRLF in 1.txt.
+The file will have its original line endings in your working directory
+
+guill@DESKTOP-46J0L3Q MINGW64 ~/desktop/masteruah (master)
+$ git commit -m "hola en 1.txt"
+[master eae2c87] hola en 1.txt
+ 2 files changed, 49 insertions(+)
